@@ -1,6 +1,11 @@
 #include<stdio.h>
 int main(void)
 {
+/**                                                                                                                
+* main - Entry point                                                                                              
+*                                                                                                                 
+* Return: Always 0 (Success)                                                                                      
+*/
 char charType;
 int intType;
 long int longintType;
