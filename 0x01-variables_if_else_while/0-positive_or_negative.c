@@ -20,7 +20,7 @@ int main(void)
 	}
 	else
         {
-	  printf("%lu is negative", n)
+	  printf("%ls is negative", n)
 	}
 	return (0);
 }
