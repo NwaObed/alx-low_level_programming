@@ -14,11 +14,9 @@ int val;
 while (j <= 9)
 {
 val = i * j;
-
-if (j != 9)
-printf("%2d, ",val);
-else
-printf("%2d\n",val);
+printf("%2d, ", val);
+if (j = 9)
+_putchar('\n');
 j++;
 }
 i++;
