@@ -1,10 +1,10 @@
 #include "main.h"
-int main(void)
 /**
  * Program to print char at a time
  * 
  * Return 0
  */
+int main(void)
 {
 char test[] = "_putchar\n";
 int i;
@@ -14,4 +14,3 @@ _putchar(test[i]);
 }
 return (0);
 }
-
