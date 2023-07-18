@@ -12,5 +12,4 @@ for (i = 0; test[i] != '\0'; i++)
 {
 _putchar(test[i]);
 }
-return (0);
-}
+return (0);}
