@@ -10,29 +10,24 @@ char numStr[5];
 int i = 0;
 while (i <= 9)
 {
-int j = 0;
-int val;
-int k;
-while (j <= 9)
-{
-val = i * j;
-sprintf(numStr, "%d", val);
-for (k = 0; numStr[k] != '\0'; k++)
-_putchar(numStr[k] + '0');
-if (j != 9)
-{
-_putchar(',');
-_putchar(' ');
-}
-else
-break;
-j++;
-}
-if (i != 9)
-_putchar('\n');
-else
-break;
-i++;
+    int j = 0;
+    int val;
+    int k;
+    while (j <= 9)
+    {
+        val = i * j;
+        
+        if (j != 9)
+            printf("%3d, ",val);
+        else
+            printf("3d",val);
+        j++;
+    }
+    if (i != 9)
+        _putchar('\n');
+    else
+        break;
+    i++;
 }
 _putchar('\n');
 }
