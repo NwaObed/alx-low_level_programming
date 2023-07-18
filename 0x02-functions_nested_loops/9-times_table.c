@@ -18,7 +18,7 @@ while (j <= 9)
 val = i * j;
 sprintf(numStr, "%d", val);
 for (k = 0; numStr[k] != '\0'; k++)
-_putchar(numStr[k]);
+_putchar(numStr[k] + '0');
 if (j != 9)
 {
 _putchar(',');
