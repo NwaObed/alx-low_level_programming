@@ -15,15 +15,14 @@ int j = 0;
 while (j < minute)
 {
 if ((i < 10) & (j < 10))
-printf("0%d:%d0", i, j);
+printf("0%d:%d0\n", i, j);
 else if ((i < 10) & (j >= 10))
-printf("0%d:%d", i, j);
+printf("0%d:%d\n", i, j);
 else if ((i >= 10) & (j < 10))
-printf("%d:0%d", i, j);
+printf("%d:0%d\n", i, j);
 else
-printf("%d:%d", i, j);
+printf("%d:%d\n", i, j);
 j++;
-_putchar('\n');
 }
 i++;   
 }
