@@ -6,13 +6,11 @@
  */
 void times_table(void)
 {
-char numStr[5];
 int i = 0;
 while (i <= 9)
 {
     int j = 0;
     int val;
-    int k;
     while (j <= 9)
     {
         val = i * j;
@@ -20,7 +18,7 @@ while (i <= 9)
         if (j != 9)
             printf("%3d, ",val);
         else
-            printf("3d",val);
+            printf("%3d",val);
         j++;
     }
     if (i != 9)
