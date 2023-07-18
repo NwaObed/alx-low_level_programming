@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * Program to print char at a time
- * 
  * Return 0
  */
 int main(void)
