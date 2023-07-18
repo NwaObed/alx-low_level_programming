@@ -16,7 +16,7 @@ printf("%d, ", n);
 else
 printf("%d\n", n);
 n++;
-}      
+}
 }
 else
 {
