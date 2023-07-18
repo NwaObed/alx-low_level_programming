@@ -16,9 +16,9 @@ while (i <= 9)
         val = i * j;
         
         if (j != 9)
-            printf("%2d\n, ",val);
+            printf("%2d, ",val);
         else
-            printf("%2d",val);
+            printf("%2d\n",val);
         j++;
     }
     i++;
