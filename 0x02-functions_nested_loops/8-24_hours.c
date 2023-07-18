@@ -17,7 +17,7 @@ while (j < minute)
 if ((i < 10) & (j < 10))
 printf("0%d:%d0", i, j);
 else if ((i < 10) & (j >= 10))
-printf("0%d:%d", j);
+printf("0%d:%d", i, j);
 else if ((i >= 10) & (j < 10))
 printf("%d:0%d", i, j);
 else
