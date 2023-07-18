@@ -20,7 +20,6 @@ n++;
 }
 else
 {
-int i;
 while (n >= 98)
 {
 if (n != 98)
