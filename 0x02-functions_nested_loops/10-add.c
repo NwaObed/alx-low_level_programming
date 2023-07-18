@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * add - add two integers
+ * @num1 @num - two integers
  * Return: Always 0 (Success)
  */
 int add(int num1, int num2)
