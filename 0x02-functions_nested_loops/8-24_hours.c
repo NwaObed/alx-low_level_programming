@@ -15,7 +15,7 @@ void jack_bauer(void)
         while (j < minute)
         {
             if ((i < 10) & (j < 10))
-                printf("0%d:%d%d\n", i, j, j);
+                printf("0%d:0%d\n", i, j);
             else if ((i < 10) & (j >= 10))
                 printf("0%d:%d\n", i, j);
             else if ((i >= 10) & (j < 10))
