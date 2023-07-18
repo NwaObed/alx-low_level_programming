@@ -1,5 +1,5 @@
 #include "main.h"
-int main()
+int main(void)
 /**
  * Program to print char at a time
  * 
