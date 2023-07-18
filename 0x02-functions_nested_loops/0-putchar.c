@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * Program to print char at a time
- * Return 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
