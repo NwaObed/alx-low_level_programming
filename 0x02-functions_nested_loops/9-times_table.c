@@ -10,7 +10,7 @@ char numStr[5];
 int i = 0;
 while (i <= 9)
 {
-int j=0;
+int j = 0;
 int val;
 int k;
 while (j <= 9)
@@ -22,7 +22,6 @@ _putchar(numStr[k]);
 if (j != 9)
 {
 _putchar(',');
-_putchar(' ');
 _putchar('\t');
 }
 else
