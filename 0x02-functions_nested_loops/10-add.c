@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * times_table - Print 9-times table
+ * add - add two integers
  * Return: Always 0 (Success)
  */
 int add(int num1, int num2)
