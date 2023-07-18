@@ -2,7 +2,7 @@
 #include <ctype.h>
 #include "main.h"
 /**
- * _islower - Checks alphabetic characters
+ * _isalpha - Checks alphabetic characters
  * @c: The character to check
  * Return: Always 0 (Success)
  */
