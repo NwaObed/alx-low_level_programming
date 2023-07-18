@@ -21,10 +21,6 @@ while (i <= 9)
             printf("%3d",val);
         j++;
     }
-    if (i != 9)
-        _putchar('\n');
-    else
-        break;
     i++;
 }
 _putchar('\n');
