@@ -22,7 +22,7 @@ _putchar(numStr[k]);
 if (j != 9)
 {
 _putchar(',');
-_putchar('\t');
+_putchar(' ');
 }
 else
 break;
