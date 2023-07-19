@@ -1,14 +1,15 @@
+#include <unistd.h>
 #include "main.h"
-
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
 char test[] = "_putchar\n";
 int i;
-
-int main()
-{
-    for (i = 0; test[i] != '\0'; i++)
-    {
-        _putchar(test[i]);
-    }
-    return 0;
+for (i = 0; test[i] != '\0'; i++)
+_putchar(test[i]);
+return (0);
 }
-
