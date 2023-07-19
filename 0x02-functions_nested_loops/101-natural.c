@@ -8,7 +8,7 @@
 void print_mult_3_or_5(void);
 int main(void)
 {
-print_mult_3_or_5(void);
+void print_mult_3_or_5(void)
 {
 int i;
 int sum = 0;
