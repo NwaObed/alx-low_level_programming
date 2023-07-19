@@ -6,22 +6,22 @@
  */
 void times_table(void)
 {
-    int i = 0;
-    while (i <= 9)
-    {
-        int j = 0;
-        int val;
-        while (j <= 9)
-        {
-            val = i * j;
-            if (j == 9)
-                printf("%2d\n", val);
-            else if (j == 0)
-                printf("%d, ", val);
-            else
-                printf("%2d, ", val);
-            j++;
-        }
-        i++;
-    }
+int i = 0;
+while (i <= 9)
+{
+int j = 0;
+int val;
+while (j <= 9)
+{
+val = i * j;
+if (j == 9)
+printf("%2d\n", val);
+else if (j == 0)
+printf("%d, ", val);
+else
+printf("%2d, ", val);
+j++;
+}
+i++;
+}
 }
