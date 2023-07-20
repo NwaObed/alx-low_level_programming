@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_diagonal : draw a diagonal line
- * @size the number of lines
+ * print_triangle : Prints a triangle
+ * @size -  the number of lines
  */
 void print_triangle(int size)
 {
