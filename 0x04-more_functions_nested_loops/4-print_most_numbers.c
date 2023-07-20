@@ -13,6 +13,7 @@ if ((i == 2) || (i == 4))
 continue;
 else
 _putchar(i);
+i++;
 }
 _putchar('\n');
 }
