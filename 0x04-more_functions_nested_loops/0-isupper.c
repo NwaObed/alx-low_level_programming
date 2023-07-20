@@ -11,7 +11,11 @@
 int _isupper(int c)
 {
 if isupper(c)
+{
+_putchar('\n');
 return (1);
+}
 else
+_putchar('\n');
 return (0);
 }
