@@ -3,7 +3,8 @@
  * print_square : Draw a square
  * @n: the number of lines
  */
-void print_square(int n){
+void print_square(int n)
+{
 if (n <= 0)
 _putchar('\n');
 else
