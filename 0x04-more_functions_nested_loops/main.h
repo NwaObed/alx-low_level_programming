@@ -3,5 +3,5 @@
 
 /* Function prototypes */
 int _isupper(int c);
-
+_isdigit(int c);
 #endif
