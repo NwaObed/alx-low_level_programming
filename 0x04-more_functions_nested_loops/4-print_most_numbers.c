@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * print_most_numbers - Prints more numbers
- * * Return: Always 0 (Success)
+ * print_most_numbers - Prints most numbers
+ * Return: Always 0 (Success)
+ * On error, -1 is returned, and errno is set appropriately.
  */
 void print_most_numbers(void)
 {
