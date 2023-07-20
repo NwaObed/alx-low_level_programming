@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * print_numbers - print numbers 0-9
@@ -10,4 +11,3 @@ while (i < 10)
 _putchar(i);
 _putchar('\n');
 }
-
