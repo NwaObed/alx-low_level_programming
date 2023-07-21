@@ -5,7 +5,8 @@
  * @size: size of the triangle
  * Return: triangle of '#'s
  */
-void print_triangle(int size){
+void print_triangle(int size)
+{
 int i;
 int j;
 for (i = (size - 1); i >= 0; i--)
