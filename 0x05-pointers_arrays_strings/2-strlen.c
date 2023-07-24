@@ -3,7 +3,7 @@
 /**
  * _strlen - To calculate the length of string pointed to by s
  * @s: pointer
- * Return - length of str
+ * Return - 1
  */
 int _strlen(char *s)
 {
