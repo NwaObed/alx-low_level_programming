@@ -8,8 +8,7 @@
 void puts2(char *str)
 {
 	int i = 1;
-	"Lorem ipsum dolor sit amet"
-
+	
 	_putchar(str[0]);
 	while (str[i] != '\0')
 	{
