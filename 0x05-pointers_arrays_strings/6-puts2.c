@@ -20,6 +20,7 @@ void puts2(char *str)
 		else
 		{
 			continue;
+			i++;
 		}
 	}
 	_putchar('\n');
