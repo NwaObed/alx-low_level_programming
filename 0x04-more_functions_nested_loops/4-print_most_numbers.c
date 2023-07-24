@@ -1,19 +1,21 @@
 #include "main.h"
 /**
- * print_most_numbers - Prints most numbers
+ * print_most_numbers - Print numbers
  * Return: Always 0 (Success)
- * On error, -1 is returned, and errno is set appropriately.
  */
 void print_most_numbers(void)
 {
-int i = 0;
-while (i < 10)
+int i;
+for (i = 48; i < 58; i++)
 {
-if ((i == 2) || (i == 4))
+if ((i == 50) || (i == 52))
+{
 continue;
+}
 else
+{
 _putchar(i);
-i++;
+}
 }
 _putchar('\n');
 }
