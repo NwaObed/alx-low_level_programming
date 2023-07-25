@@ -11,6 +11,9 @@ int main(void)
 	print_fizzbuzz();
 	return (0);
 }
+/**
+* print_fizzbuzz - print fizz buzz
+*/
 void print_fizzbuzz(void)
 {
 	int i;
