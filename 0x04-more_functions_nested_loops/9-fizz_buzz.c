@@ -22,14 +22,14 @@ void print_fizzbuzz(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if ((i % 3) == 0)
-			printf("%s", fizz);
-		else if ((i % 5) == 0)
-			printf("%s", buzz);
-		else if (((i % 3) == 0) & ((i % 5) == 0))
+		if (((i % 3) == 0) && ((i % 5) == 0))
 			printf("%s", fb);
+		else if ((i % 3) == 0)
+ 			printf("%s", fizz);
+ 		else if ((i % 5) == 0)
+			printf("%s", buzz);
 		else
-		printf("%d ", i);
+			printf("%d ", i);
 	}
 	printf("\n");
 }
