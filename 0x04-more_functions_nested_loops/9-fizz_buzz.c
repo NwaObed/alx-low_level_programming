@@ -3,7 +3,6 @@
 #include "main.h"
 /**
  * main - Entry point
- * print_fizzbuzz - print fizz buzz
  * Return: Always 0.
  */
 int main(void)
