@@ -10,10 +10,9 @@ unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int count = 0;
 	int i, j;
-	int s_len = strlen(s);
 	int accept_len = strlen(accept);
 
-	for (i = 0; i < s_len; i++)
+	for (i = 0; s[i] != ' '; i++)
 	{
 		for (j = 0; j < accept_len; j++)
 		{
