@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
 /**
   * _strpbrk - Locate the first occurrence of byte in a string
   * @s: First string
@@ -9,23 +10,24 @@
 char *_strpbrk(char *s, char *accept)
 {
 	int i, j;
-	char *ptr;
+	char *ptr = NULL;
 	int accept_len = strlen(accept);
 	int s_len = strlen(s);
 
-	for (i = 0; i < s_len; i++)
+	i = 0;	
+	while (i < s_len && ptr == NULL)
 	{
 		for (j = 0; j < accept_len; j++)
 		{
-
-			if (s[i] == accept[j])
+			printf("%d \n", i);
+			if (accept[j] == s[i])
 			{
+				printf("%c, %c \n", s[i], accept[j]);
 				ptr = &s[i];
 				break;
 			}
-			else
-				ptr = NULL;
 		}
+		i++;
 	}
 	return (ptr);
 }
