@@ -10,10 +10,12 @@ char *_strpbrk(char *s, char *accept)
 {
 	int i, j;
 	char *ptr;
+	int accept_len = strlen(accept);
+	int s_len = strlen(s);
 
-	for (i = 0; ; i++;)
+	for (i = 0; i < s_len; i++)
 	{
-		for (j = 0; j < strlen(accept); j++)
+		for (j = 0; j < accept_len; j++)
 		{
 
 			if (s[i] == accept[j])
