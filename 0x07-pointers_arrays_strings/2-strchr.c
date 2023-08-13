@@ -9,7 +9,7 @@
 char *_strchr(char *s, char c)
 {
 	char *ptr = NULL;
-	unsigned int i;
+	int i;
 	int s_len;
 
 	s_len = strlen(s);
