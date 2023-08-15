@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
   * print_dog - Print a type struct dog
+  * @dog: Strust type dog
   * @d: Pointer to the dog
   * Return: Nothing on success
   */
