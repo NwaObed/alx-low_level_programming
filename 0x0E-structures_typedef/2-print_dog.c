@@ -30,5 +30,5 @@ void print_dog(struct dog *d)
 		}
 	}
 	else
-		printf("Invalid pointer, dog does not exist\n");
+		return;
 }
