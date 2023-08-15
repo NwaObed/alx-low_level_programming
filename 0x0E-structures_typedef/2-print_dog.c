@@ -11,9 +11,9 @@ void print_dog(struct dog *d)
 	if (d != NULL)
 	{
 		if (d->name == NULL)
-			printf("Name: (nil)");
+			printf("Name: (nil)\n");
 		else if (d->owner == NULL)
-			printf("(nil)");
+			printf("(nil)\n");
 		else
 		{
 			printf("Name: %s\n", d->name);
@@ -22,5 +22,5 @@ void print_dog(struct dog *d)
 		}
 	}
 	else
-		printf("Invalid pointer, dog does not exist");
+		printf("Invalid pointer, dog does not exist\n");
 }
