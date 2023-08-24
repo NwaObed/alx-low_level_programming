@@ -3,9 +3,9 @@
 
 /*
  * File: lists.h
- * Auth: Obed O Nwachukwu 
+ * Auth: Obed O Nwachukwu
  * Desc: Header file definition for function prototypes
- * 	 used in 0x12-singly_linked_lists task.
+ *	 used in 0x12-singly_linked_lists task.
  */
 
 #include <stdlib.h>
