@@ -3,7 +3,7 @@
 void __attribute__((constructor)) tortoise(void);
 
 /**
- * hare - Prints a string before the
+ * tortoise - Prints a string betore the
  *        main function is executed.
  */
 void tortoise(void)
