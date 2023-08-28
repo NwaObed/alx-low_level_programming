@@ -3,8 +3,7 @@
 /**
  * delete_nodeint_at_index - Deletes the node at a given
  *                           index of a listint_t list.
- * @head: A pointer to the address of the
- *        head of the listint_t list.
+ * @head: A pointer to the head of the listint_t list.
  * @index: The index of the node to be deleted - indices start at 0.
  *
  * Return: On success - 1.
@@ -12,7 +11,7 @@
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
-	listint_t *tmp, *copy = *head;
+	listint_t *var, *copy = *head;
 	unsigned int node;
 
 	if (copy == NULL)
@@ -33,8 +32,8 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		copy = copy->next;
 	}
 
-	tmp = copy->next;
-	copy->next = tmp->next;
-	free(tmp);
+	var = copy->next;
+	copy->next = var->next;
+	free(var);
 	return (1);
 }
