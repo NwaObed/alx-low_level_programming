@@ -37,7 +37,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	}
 
 	orig->next = dup->next;
-	dup->next = new;
+	dup->next = orig;
 
-	return (new);
+	return (orig);
 }
