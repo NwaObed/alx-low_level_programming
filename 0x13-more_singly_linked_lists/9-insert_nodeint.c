@@ -12,7 +12,7 @@
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
-	listint_t *new, *dup = *head;
+	listint_t *orig, *dup = *head;
 	unsigned int node;
 
 	orig = malloc(sizeof(listint_t));
