@@ -40,7 +40,7 @@ char *argstostr(int ac, char **av)
 		{
 			charout[xyz] = '\n';
 			i++;
-			ia++;
+			xyz++;
 			j = 0;
 		}
 		if (xyz < abc - 1)
