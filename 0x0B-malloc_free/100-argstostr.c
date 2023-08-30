@@ -46,7 +46,7 @@ char *argstostr(int ac, char **av)
 		if (xyz < abc - 1)
 			charout[xyz] = av[i][j];
 	}
-	charout[ia] = '\0';
+	charout[xyz] = '\0';
 
 	return (charout);
 }
